@@ -48,6 +48,12 @@ margin-left: 4px;
 margin-right: 1rem;
 cursor: pointer;
 }
+.menu img{
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    display: none;
+}
 .home{
     background: rgb(230, 83, 60);
     border-radius: 46px;
@@ -58,6 +64,16 @@ cursor: pointer;
 
 
 @media screen and (max-width: 576px) {
+    .menu li{
+        display: none;
+    }
+    .menu img{
+        display: inherit;
+        margin-left: 90%;
+        cursor: pointer;
+    }
     .menu{
+        border: none;
+        border-radius: 0;
     }
 }
