@@ -111,7 +111,7 @@ letter-spacing: 0%;
     margin-bottom: 1.6rem;
 }
 .banner-img{
-    background-image: url(../images/Images\ 2.png);
+    background-image: url(../images/Images-2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -174,6 +174,60 @@ font-size: 0.8rem;
 }
 /* hero section end */
 
+
+/* habit section start */
+.habit{
+   max-width: 1044px;
+height: 452px;
+margin: 0 auto;
+margin-top: 6rem;
+margin-bottom: 6rem;
+}
+.habit-title{
+    width: 671px;
+height: 120px;
+margin: 0 auto;
+text-align: center;
+}
+.habit-title h1{
+    color: rgb(255, 255, 255);
+font-size: 3rem;
+font-weight: 900;
+}
+.habit-title p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.change-habit{
+    height: 274px;
+    margin-top: 3.5rem;
+    gap: 2rem;
+}
+.change-item{
+    width: 231px;
+}
+.item-image{
+    width: 180px;
+    height: 172px;
+    margin: 0 auto;
+    /* border-radius: 50px; */
+}
+.item-image img{
+    border-radius: 50%;
+}
+.image-title{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.image-title h6{
+    color: rgb(255, 255, 255);
+font-size: 1.125rem;
+font-weight: 600;
+}
+.image-title p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: .5rem;
+}
+/* habit section end */
 
 
 @media screen and (max-width: 576px) {
@@ -252,5 +306,24 @@ height: 54px;
     .banner-img{
         max-width: 100%;
         margin-left: 1.5rem;
+    }
+
+    .habit{
+        width: 338px;
+height: 1398px;
+margin-top: 25.5rem;
+    }
+    .habit-title{
+        width: 318px;
+height: 124px;
+margin: 0 auto;
+}
+    .habit-title h1{
+        font-size: 2rem;
+    }
+    .change-habit{
+        flex-direction: column;
+        align-items: center; 
+        margin-top: 2rem;
     }
 }
