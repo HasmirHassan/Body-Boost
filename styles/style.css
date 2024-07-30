@@ -24,6 +24,7 @@ padding: 16px 40px 16px 40px;
 border-radius: 42px;
 border: 1px solid rgb(255, 255, 255);
 margin-left: 0.8rem;
+cursor: pointer;
 }
 .btn{
 background: rgb(230, 83, 60);
@@ -33,11 +34,12 @@ font-weight: 600;
 padding: 16px 40px 16px 40px;
 border-radius: 42px;
 border: none;
+cursor: pointer;
 }
 /* hero section start */
 .hero{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); 
-    max-width:1440px;
+    max-width:100%;
     height: 670px;
 }
 .navbar{
@@ -117,6 +119,7 @@ letter-spacing: 0%;
 height: 600px;
 margin-left: 5.4rem;
 margin-top: 1.5rem;
+position: relative;
 }
 .video{
     width: 206px;
@@ -128,9 +131,9 @@ background: rgba(48, 48, 48, 0.54);
 justify-content: center;
 align-items: center;
 gap: 15px;
-position: absolute;
-left: 670px;
-top: 560px;
+position: relative;
+left: -7rem;
+top: 27rem;
 }
 .color{
     width: 40px;
@@ -156,9 +159,9 @@ background: rgba(255, 255, 255, 0.1);
 display: flex;
 justify-content: center;
 align-items: center;
-position: absolute;
-left: 1010px;
-top: 260px;
+position: relative;
+ left: 14.125rem;
+top: 2rem;
 }
 .free-number h2{
     color: rgb(255, 255, 255);
@@ -174,6 +177,12 @@ font-size: 0.8rem;
 
 
 @media screen and (max-width: 576px) {
+    .hero{
+        max-width: 100%;
+    }
+    .title{
+        margin-left: .5rem;
+    }
     .menu li{
         display: none;
     }
@@ -185,5 +194,63 @@ font-size: 0.8rem;
     .menu{
         border: none;
         border-radius: 0;
+    }
+    .banner{
+        flex-direction: column;
+        margin-top: -3rem;
+        
+    }
+    .banner-content{
+        max-width: 350px;
+height: 335px;
+margin-left: .5rem;
+margin-bottom: .3rem;
+    }
+    .banner-title{
+        width: 285px;
+height: 129px;
+line-height: 50%;
+    }
+    .banner-sub-title{
+        max-width: 100%;
+    }
+    .banner-title h1{
+        font-size: 2.25rem;
+    }
+    .shape{
+        font-size: 4.25rem;
+    }
+    .btn{
+        width: 169px;
+height: 54px;
+    }
+    .club{
+        display: none;
+    }
+    .no-color{
+        width: 169px;
+        height: 54px;
+        text-align: left;
+        padding: 16px 20px 16px 20px;
+    }
+    .button{
+        display: flex;
+        max-width: 100%;
+    }
+    .free{
+        width: 145.91px;
+        height: 74.09px;
+        left: 11.8rem;
+        top: .5rem;
+    }
+    .video{
+        width: 170px;
+        height: 72.58px;
+        left: -.2rem;
+        top: 17.5rem;
+    }
+    .banner-img{
+        max-width: 100%;
+        margin-left: 1.5rem;
     }
 }
