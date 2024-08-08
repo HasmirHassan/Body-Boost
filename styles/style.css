@@ -264,6 +264,103 @@ border-radius: 1.125rem;
 }
 /* run section end */
 
+/* bmi section start */
+.bmi-title{
+    max-width: 671px;
+height: 120px;
+margin: 0 auto;
+margin-bottom: 5.5rem;
+}
+.bmi-title h1{
+    color: rgb(255, 255, 255);
+font-size: 3rem;
+font-weight: 900;
+margin-bottom: .875rem;
+}
+.bmi-title p{
+    color: rgba(255, 255, 255, 0.5);
+font-size: .875rem;
+}
+.bmi-content{
+    max-width: 1440px;
+height: 487px;
+background: rgb(34, 34, 34);
+margin: 0 auto;
+margin-bottom: 5.5rem;
+justify-content: space-evenly;
+}
+table{
+    width: 310px;
+height: 216px;
+}
+caption{
+    text-align: left;
+    color: rgb(255, 255, 255);
+font-size: 1.75rem;
+font-weight: 900;
+margin: 3.25rem 0;
+}
+table,th,td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+th{
+    color: rgb(255, 255, 255);
+font-weight: 500;
+text-align: left;
+padding-left: 1rem;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .875rem;
+    padding-left: 1rem;
+}
+
+.calculate-bmi{
+    max-width: 577px;
+    height: 386px;
+    margin-top: 3rem;
+}
+.calculate-title{
+    height: 96px;
+    margin-bottom: 2rem;
+}
+.calculate-title h3{
+    color: rgb(255, 255, 255);
+font-size: 1.75rem;
+font-weight: 900;
+margin-bottom: .875rem;
+}
+.calculate-title p{
+    color: rgba(255, 255, 255, 0.5);
+font-size: .875rem;
+}
+.bmi-form{
+    height: 168px;
+}
+.bmi-form > form > input,select{
+    width: 282.5px;
+height: 48px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.1);
+border: none;
+color: rgba(255, 255, 255, 0.6);
+padding: 12px 40px 12px 20px;
+margin-bottom: .75rem;
+}
+option{
+    color: red; 
+}
+select{
+    color:rgba(207, 202, 202, 0.6) ;
+}
+#factor{
+    width: 97.8%;
+    color:rgba(232, 229, 229, 0.6);
+    margin-bottom: 2rem;
+}
+/* bmi section end */
+
 
 @media screen and (max-width: 576px) {
     .hero{
@@ -390,5 +487,42 @@ margin-top: 1.5rem;
         width: 287px;
 height: 170px;
 /* margin-bottom: 2rem; */
+    }
+    .bmi-title{
+        max-width:353px;
+        height: 124px;
+        font-size: 2rem;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+    .bmi-content{
+        width: 394px;
+height: 772px;
+flex-direction: column;
+justify-content: left;
+    }
+    caption{
+        font-size: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    table{
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+    .calculate-bmi{
+        width: 354px;
+height: 395px;
+margin-left: 2rem;
+margin-top: 1rem;
+    }
+    .calculate-title h3{
+        font-size: 1rem;
+    }
+    .calculate-title p{
+        margin-bottom: 2rem;
+    }
+    .bmi-form > form > input,select{
+        width: 170.5px;
     }
 }
