@@ -360,6 +360,50 @@ select{
     margin-bottom: 2rem;
 }
 /* bmi section end */
+/* our-team section start */
+.our-team{
+    max-width: 1060px;
+height: 782px;
+margin: 0 auto;
+}
+.our-team-title{
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+.members{
+    height: 604px;
+    border-radius: 18px;
+background: rgba(255, 255, 255, 0.1);
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: .5rem;
+}
+.member-image{
+    margin: .8rem auto;
+    /* width: 326.67px;
+    height: 272px; */
+}
+.member-image img{
+    width: 326.67px;
+    height: 272px;
+border-radius: 18px;
+background: rgba(0, 0, 0, 0.2);
+}
+.member-name{
+    position: relative;
+    margin-top: -4rem;
+    margin-left: 1rem;
+}
+.member-name h5{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+.member-name p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .875rem;
+}
+
+/* our-team section end */
 
 
 @media screen and (max-width: 576px) {
